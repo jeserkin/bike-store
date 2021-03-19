@@ -1,6 +1,6 @@
 {
   "name": "stores",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "license": "MIT",
   "scripts": {
     "ng": "nx",
@@ -37,7 +37,11 @@
     "@angular/platform-browser": "^11.2.0",
     "@angular/platform-browser-dynamic": "^11.2.0",
     "@angular/router": "^11.2.0",
+    "@ngx-translate/core": "^13.0.0",
+    "@ngx-translate/http-loader": "^6.0.0",
     "@nrwl/angular": "11.4.0",
+    "dayjs": "^1.10.4",
+    "material-design-icons": "^3.0.1",
     "rxjs": "~6.6.3",
     "tslib": "^2.0.0",
     "zone.js": "^0.10.2"
@@ -68,6 +72,7 @@
     "eslint-plugin-cypress": "^2.10.3",
     "jest": "26.2.2",
     "jest-preset-angular": "8.3.2",
+    "ngx-translate-testing": "^5.1.0",
     "prettier": "2.2.1",
     "ts-jest": "26.4.0",
     "ts-node": "~9.1.1",
